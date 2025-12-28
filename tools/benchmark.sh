@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 OMP_NUM_THREADS=16 python tools/analysis_tools/benchmark.py $1 $2 --samples 500 --warmup 20 --log-interval 50 --fuse-conv-bn --e2e --mem # --amp
